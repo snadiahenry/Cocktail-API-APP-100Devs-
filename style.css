@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1,h2,h3,h4,ul,h5{
+  color: darkslateblue;
+}
+
+button {
+color: rgb(255, 255, 255);
+background-color: rgb(185, 155, 206);
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
